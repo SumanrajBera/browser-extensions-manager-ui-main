@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Browser extensions manager UI (Sumanraj Bera)</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="light">
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="Logo">
+      </div>
+      <div class="theme-button">
+        <button id="nav-btn">
+          <img src="./assets/images/icon-moon.svg" id="theme-img" alt="theme-icon">
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="extensions-ctrl">
+      <h1>Extensions List</h1>
+      <div id="extensions-ctrl_btn-grp">
+        <button class="all activated">All</button>
+        <button class="active">Active</button>
+        <button class="inactive">Inactive</button>
+      </div>
+    </section>
+    <!-- Dynamic insertion of cards -->
+    <section id="extensions-grid"></section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/sumanraj-bera-2139a9286/">Sumanraj Bera</a>.
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
