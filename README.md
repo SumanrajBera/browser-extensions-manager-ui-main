@@ -6,7 +6,7 @@ A lightweight front-end project that showcases a light/dark theme switcher, dyna
 
 Light Mode | Dark Mode
 -----------|-----------
-![Light Mode](./blob/main/design/desktop-design-light.jpg) | ![Dark Mode](./blob/main/design/desktop-design-dark.jpg)
+![Light Mode](./design/desktop-design-light.jpg) | ![Dark Mode](./design/desktop-design-dark.jpg)
 
 ## ✨ Features
 
